@@ -37,6 +37,11 @@ main{
     background: linear-gradient(60deg,#6595d4, #bbb0d0);
 }
 
+.icones-info-pessoais{
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+}
 .informacoes-pessoais-lista{
     display: inline-block;
     vertical-align: top;
@@ -64,8 +69,14 @@ main{
     width: 20%;
     border-radius: 50%;
     margin: 10px 10px;
-    margin-right: 20px;
+    margin-right: 50px;
     padding: 20px;
+}
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    width: 60px;
 }
 
 /*css do sobre mim*/
@@ -76,5 +87,38 @@ main{
 .sobre-mim-foto{
     width: 300px;
     height: 300px;
-    border-radius: 25%;
+    border-radius: 30%;
+    opacity: 0.8;
+    margin: 6px 300px;
+}
+.sobre-mim-foto:hover{
+    opacity: 1;
+}
+h2 {
+    text-align: center;
+    margin: 20px 700px;
+    width: 30%;
+    line-height: 1.2;
+}
+.text-sobe-mim{    
+    text-align: center;
+    margin: 4px 700px;
+    width: 30%;
+    line-height: 1.2;
+}
+.titulo-sessoes{
+    font-size: 20px;
+}
+/*css footer*/
+footer{
+    background: linear-gradient(160deg,#6595d4, #bbb0d0);
+    font-family: 'Fira Code', monospace;
+    text-align: center;
+    padding: 50px;
+    color: #F8F8FF;
+    line-height: 1.2;
+}
+
+footer a {
+    text-decoration: none;
 }
