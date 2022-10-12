@@ -1,13 +1,17 @@
+body {
+    font-family: 'Fira Code', monospace;
+}
 /*css header*/
 header{
     background: linear-gradient(160deg,#6595d4, #bbb0d0);
-    padding: 30px;
-    font-family: 'Fira Code', monospace;
+    padding: 25px;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 nav{
-    position: fixed;    
-    right: 200px;
+    text-align: right; 
 }
 
 nav li{
@@ -25,11 +29,10 @@ nav a{
 
 nav a:hover{
     color: #13b016;
-    text-decoration: underline;
 }
 
-main{
-    font-family: 'Fira Code', monospace;
+nav a:active {
+    text-decoration: underline;
 }
 
 /*css informações principais*/
@@ -38,9 +41,9 @@ main{
 }
 
 .icones-info-pessoais{
-    width: 60px;
-    display: flex;
-    flex-direction: column;
+    width: 40px;
+    float: left;
+    
 }
 .informacoes-pessoais-lista{
     display: inline-block;
@@ -70,13 +73,11 @@ main{
     border-radius: 50%;
     margin: 10px 10px;
     margin-right: 50px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .icones{
-    display: flex;
-    flex-direction: column;
-    width: 60px;
+    width: 40px;
 }
 
 /*css do sobre mim*/
@@ -84,7 +85,14 @@ main{
     background: #bccfe7;
     color: #202081;
 }
+
+#sobre-mim-texto{
+    width: 1020px;
+    padding: 50px;
+}
+
 .sobre-mim-foto{
+    position: absolute;
     width: 300px;
     height: 300px;
     border-radius: 30%;
@@ -112,7 +120,6 @@ h2 {
 /*css footer*/
 footer{
     background: linear-gradient(160deg,#6595d4, #bbb0d0);
-    font-family: 'Fira Code', monospace;
     text-align: center;
     padding: 50px;
     color: #F8F8FF;
@@ -122,3 +129,5 @@ footer{
 footer a {
     text-decoration: none;
 }
+
+/*css certificados*/
