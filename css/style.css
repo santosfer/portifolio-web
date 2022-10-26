@@ -98,12 +98,12 @@ nav a:active {
 }
 
 .sobre-mim-foto {
-    float: left;
-    width: 280px;
-    height: 280px;
-    border-radius: 50%;
+    width: 440px;
+    height: 440px;
+    border-radius: 30%;
     opacity: 0.8;
-    margin: 6px 200px;
+    
+    position: absolute;
 }
 
 .sobre-mim-foto:hover {
@@ -119,10 +119,6 @@ nav a:active {
     color: #3d4ad7;
     text-transform: uppercase;
     transition: 1s;
-}
-
-.titulo-sessoes {
-    font-size: 15px;
 }
 
 .titulo-sessoes {
@@ -177,3 +173,41 @@ footer a {
 }
 
 /*css certificados*/
+#certificado-principal {
+    background: linear-gradient(45deg, #6595d4, #bccfe7);
+    padding: 5%; 
+    font-family: 'Fira Code', monospace;
+}
+
+.center-title-cert {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 60px;
+    color: #202081;
+}
+
+.background-texto-cert {
+    text-align: center;
+    background-color: #92b4de;
+    box-shadow: 1px 1px 16px rgb(4, 81, 147);
+    color: #3e0077;
+    display: inline-block;
+    padding: 18px;
+    border-radius: 8px;
+    width: 460px;
+    box-sizing: border-box;
+    vertical-align: top;
+    height: 250px;
+    margin: 5% 33%;
+    line-height: 1.5;
+}
+
+.background-texto-cert a {
+    text-decoration: none;
+}
+
+.background-texto-cert a:hover {
+    color: #2d2ac7;
+    transition: 0.3s;
+}
