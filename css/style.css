@@ -1,33 +1,34 @@
 body {
     font-family: 'Fira Code', monospace;
 }
+
 /*css header*/
-header{
-    background: linear-gradient(160deg,#6595d4, #bbb0d0);
+header {
+    background: linear-gradient(160deg, #6595d4, #bbb0d0);
     padding: 25px;
     position: fixed;
     left: 0;
     right: 0;
 }
 
-nav{
-    text-align: right; 
+nav {
+    text-align: right;
 }
 
-nav li{
+nav li {
     display: inline;
     margin: 0 30px;
 }
 
-nav a{
-    text-transform: uppercase;    
+nav a {
+    text-transform: uppercase;
     font-weight: lighter;
     font-size: 16px;
     text-decoration: none;
     color: #F8F8FF;
 }
 
-nav a:hover{
+nav a:hover {
     color: #13b016;
 }
 
@@ -36,48 +37,53 @@ nav a:active {
 }
 
 /*css informações principais*/
-.informacoes-principais-lista{    
-    background: linear-gradient(60deg,#6595d4, #bbb0d0);
+.informacoes-principais-lista {
+    background: linear-gradient(60deg, #6595d4, #bbb0d0);
 }
 
-.icones-info-pessoais{
-    width: 40px;
-    float: left;
-    
-}
-.informacoes-pessoais-lista{
+.informacoes-pessoais-lista {
     display: inline-block;
     vertical-align: top;
     width: 45%;
-    margin: 50px 0px;
+    margin: 110px 0px;
     margin-left: 250px;
 }
 
-.info-pessoais{
+.info-pessoais {
     line-height: 2;
     color: #F8F8FF;
-
 }
 
-.info-pessoais:first-child{
+.info-pessoais:first-child {
     font-weight: bold;
     font-size: 50px;
 }
 
-.info-pessoais:nth-child(2){
+.info-pessoais:nth-child(2) {
     font-size: 18px;
 }
 
-.foto-perfil-lista{
+.foto-perfil-lista {
     width: 20%;
     border-radius: 50%;
-    margin: 10px 10px;
+    margin: 100px 0px 30px;
     margin-right: 50px;
     padding: 10px;
 }
 
-.icones{
-    width: 40px;
+#icones-top{
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(180deg, #6595d4, #bccfe7);
+}
+
+.icones {
+    width: 50px;
+}
+
+.icones:hover {
+    transform: scale(1.5);
+    opacity: 0.8;
 }
 
 /*css do sobre mim*/
@@ -86,40 +92,80 @@ nav a:active {
     color: #202081;
 }
 
-#sobre-mim-texto{
+#sobre-mim-texto {
     width: 1020px;
     padding: 50px;
 }
 
-.sobre-mim-foto{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    border-radius: 30%;
+.sobre-mim-foto {
+    float: left;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
     opacity: 0.8;
-    margin: 6px 300px;
+    margin: 6px 200px;
 }
-.sobre-mim-foto:hover{
+
+.sobre-mim-foto:hover {
     opacity: 1;
 }
-h2 {
+
+#link-medium {
+    text-decoration: none;
+    color: #ba56be;
+}
+
+#link-medium:hover {
+    color: #3d4ad7;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+.titulo-sessoes {
+    font-size: 15px;
+}
+
+.titulo-sessoes {
     text-align: center;
-    margin: 20px 700px;
-    width: 30%;
-    line-height: 1.2;
+    margin-top: 30px;
+    font-size: 18px;
 }
-.text-sobe-mim{    
-    text-align: center;
-    margin: 4px 700px;
-    width: 30%;
-    line-height: 1.2;
+
+.center-title {
+    font-weight: bold;
 }
-.titulo-sessoes{
-    font-size: 20px;
+
+.background-texto {
+    background-color: #92b4de;
+    box-shadow: 1px 1px 16px rgb(4, 81, 147);
+    color: #3e0077;
+    padding: 18px;
+    display: inline-block;
+    border-radius: 8px;
+    width: 460px;
+    box-sizing: border-box;
+    vertical-align: top;
+    height: 120px;
+    margin: 60px 40px 5px;
 }
+
+.nav-interesses {
+    display: flex;
+    justify-content: center;
+}
+
+.icone-int {
+    width: 80px;
+    margin: 10px;
+}
+
+.icone-int:hover {
+    transform: scale(0.8);
+}
+
 /*css footer*/
-footer{
-    background: linear-gradient(160deg,#6595d4, #bbb0d0);
+footer {
+    background: linear-gradient(160deg, #6595d4, #bbb0d0);
     text-align: center;
     padding: 50px;
     color: #F8F8FF;
