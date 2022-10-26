@@ -8,7 +8,7 @@
 <h2>O projeto</h2>
 <h3>Portifolio web</h3>
 <p>~projeto em desenvolvimento</p>
-<p>Utilizando HTML e CSS para criar uma pégina-currículo online. Projeto final do curso com a Empower code for women.</p>
+<p>Utilizando HTML, CSS e JavaScript para criar uma pégina-currículo online. Projeto final do curso com a Empower code for women.</p>
 <p><a href="https://santosfer.github.io/portifolio-web/" target=“_blank”>Portífólio Web</a></p>
 
 <div style="display: inline_block"><br>
