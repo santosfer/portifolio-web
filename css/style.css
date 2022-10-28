@@ -98,11 +98,12 @@ nav a:active {
 }
 
 .sobre-mim-foto {
-    width: 440px;
-    height: 440px;
+    width: 380px;
+    height: 380px;
     border-radius: 30%;
     opacity: 0.8;    
     float: left; 
+    margin-left: 200px ;
 }
 
 .sobre-mim-foto:hover {
@@ -149,7 +150,7 @@ nav a:active {
     background-color: #92b4de;
     box-shadow: 1px 1px 16px rgb(4, 81, 147);
     color: #F8F8F8;
-    padding: 18px;
+    padding: 15px;
     display: inline-block;
     border-radius: 8px;
     width: 460px;
@@ -172,6 +173,21 @@ nav a:active {
 
 .icone-int:hover {
     transform: scale(0.8);
+    cursor: pointer;
+}
+
+.background-texto-int {
+    background-color: #92b4de;
+    box-shadow: 1px 1px 16px rgb(4, 81, 147);
+    color: #F8F8F8;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 8px;
+    width: 460px;
+    box-sizing: border-box;
+    vertical-align: top;
+    height: 120px;
+    line-height: 1.1;
 }
 
 /*css footer*/
@@ -225,4 +241,83 @@ footer a {
 .background-texto-cert a:hover {
     color: #2d2ac7;
     transition: 0.3s;
+}
+
+
+
+@media screen and (max-width:1040px) {
+
+    header,.sobre-mim-foto {
+        display: none;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        transform: translateX(-100%);
+        transition: ease-in;
+    }
+
+    .menu_open {
+        transform: translateX(0);
+    }
+
+    .btnMenu {
+        display: block;
+        background: linear-gradient(160deg, #6595d4, #bbb0d0);
+        text-indent: 9999px;
+    }
+
+    .menu-item {
+        text-transform: uppercase;
+        font-weight: lighter;
+        font-size: 12px;
+        padding: 20px 15px;
+        border-bottom: 1px solid rgb(187, 176, 208, 0,8);
+        background: linear-gradient(160deg, #6595d4, #bbb0d0);;
+    }
+    
+    .menu-item a {
+        text-decoration: none;
+        color: #F8F8FF;        
+    }
+
+    .informacoes-pessoais-lista {
+        width: 15%;
+        margin: 5px 0px;
+        margin-left: 50px;
+    }
+
+    .foto-perfil-lista{
+        width: 30%;
+        border-radius: 50%;
+        float: right;
+        margin: 0;
+    }
+
+    .background-texto-sb, .background-texto, .background-texto-int {
+        margin: 15px;
+        width: 90%;
+        height: 180px;
+    }
+
+    .icone-int {
+        margin: 2px;
+    }
+
+    .background-texto-cert {
+        width: 100%;
+        margin: 2%;
+        background: 100%;
+    }
+}
+
+
+@media screen and (min-width:1041px) {
+    .menu-mobile {
+        display: none;
+    }
 }
