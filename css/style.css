@@ -194,7 +194,7 @@ nav a:active {
 footer {
     background: linear-gradient(160deg, #6595d4, #bbb0d0);
     text-align: center;
-    padding: 50px;
+    padding: 50px 0;
     color: #F8F8FF;
     line-height: 1.2;
 }
@@ -247,7 +247,7 @@ footer a {
 
 @media screen and (max-width:1040px) {
 
-    header,.sobre-mim-foto {
+    header {
         display: none;
     }
 
@@ -269,6 +269,7 @@ footer a {
         display: block;
         background: linear-gradient(160deg, #6595d4, #bbb0d0);
         text-indent: 9999px;
+        padding: 5px;
     }
 
     .menu-item {
@@ -298,7 +299,22 @@ footer a {
         margin: 0;
     }
 
-    .background-texto-sb, .background-texto, .background-texto-int {
+    .sobre-mim-foto {
+        margin: 0;
+        width: 80%;
+        position: absolute;
+        opacity: 0.1;
+        height: 50%;
+    }
+
+    .background-texto-sb{
+        color: black;
+        margin: 10px;
+        width: 90%;
+        height: 230px;
+    }
+
+    .background-texto, .background-texto-int {
         margin: 15px;
         width: 90%;
         height: 180px;
@@ -306,6 +322,7 @@ footer a {
 
     .icone-int {
         margin: 2px;
+        width: 80%;
     }
 
     .background-texto-cert {
